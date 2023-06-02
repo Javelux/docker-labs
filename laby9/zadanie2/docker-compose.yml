@@ -12,7 +12,7 @@ services:
   
   api:
     build:
-      context: ./api
+      context: ./app
       dockerfile: Dockerfile 
     platform: linux/arm64
     networks:

@@ -11,7 +11,7 @@ services:
   
   api:
     build:
-      context: ./api
+      context: ./app
       dockerfile: Dockerfile 
     networks:
       - backend_network
